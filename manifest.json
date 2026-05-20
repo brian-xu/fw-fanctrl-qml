@@ -1,0 +1,26 @@
+{
+  "id": "fw-fanctrl",
+  "name": "Framework Fan Control",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "4.7.8",
+  "author": "brian-xu",
+  "license": "MIT",
+  "repository": "https://github.com/noctalia-dev/noctalia-plugins",
+  "description": "Control fan strategies via fw-fanctrl on Framework laptops",
+  "tags": [
+    "Bar",
+    "System"
+  ],
+  "entryPoints": {
+    "main": "Main.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "refreshInterval": 10
+    }
+  }
+}
