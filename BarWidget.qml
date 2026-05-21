@@ -71,7 +71,7 @@ NIconButton {
   function getIcon() {
     switch (currentStrategy) {
     case "laziest":
-      return "wind-off";
+      return "windmill-off";
     case "lazy":
       return "windmill";
     case "medium":
@@ -79,7 +79,7 @@ NIconButton {
     case "agile":
       return "wind-electricity";
     case "very-agile":
-      return "building-wind-turbine";
+      return "plane";
     case "deaf":
       return "tornado";
     case "aeolus":
